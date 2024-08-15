@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="photos/image 15.png" alt="">
+
+        <a class="cart" href="cart.html"><span>Кошик</span><img src="photos/image 2.png" alt=""></a>
+    </header>
+    <main>
+        <div class ="cart1">
+            <div class="product1">
+                    <p>Кошик замовлень</p>
+                    <button id="buyButton">Придбати</button>
+                    <div class = "df2">
+                        <p>URL</p>
+                        <p>Товар</p>
+                        <p>Ціна</p>
+                        <p>Кількість</p>
+                    </div>
+                    <div class = "df2">
+                        <img src="photos/image 10.png" alt="Шкарпетки">
+                        <p>Шкарпетки</p>
+                        <p class="price">150 грн</p>
+                        <input type="number" min="1" class="amount">
+                    </div>
+            </div>
+        </div>
+        <div id="orderFormContainer" style="display: none;">
+            <h2>Оформлення замовлення</h2>
+            <button id="closeButton">Закрити</button>
+            <form id="orderForm">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" required>
+        
+                <label for="address">Адреса доставки:</label>
+                <input type="text" id="address" name="address" required>
+        
+                <button type="submit">Підтвердити замовлення</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>Місцезнаходження магазину: <span class="coordinates">48.417577, 22.170148</span></p>
+            <p>Номер телефону: <a href="tel:+380506769949">+380 50 676 9949</a></p>
+            <p class="slogan">Слава Україні! Героям Слава!</p>
+            <img src="photos/ukraine-coat-of-arms.png" alt="Герб України">
+          </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

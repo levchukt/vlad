@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Russo One';
+    margin: 0;
+    
+    
+}
+
+
+header{
+    /*background-color: #E7BF00;*/
+    background: url(photos/hfbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
+}
+
+.banner{
+    color: white;
+    background-image: url(photos/image1.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: end;align-items: center;
+    padding-right: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.cart span{
+    /*border-radius: 5px; 
+    border: 5px solid #AB8D50;
+    background: #D0AC00;
+    
+    color:black;
+    font-size: 20px;
+    cursor: pointer;*/
+
+    border: 5px solid #7b2cbf;
+    padding: 0.3em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #240046;
+    background: transparent;
+    
+}
+
+
+.cart{
+    text-decoration: none;
+}
+.cart span:hover{
+    box-shadow: 0px 0px 5px 5px #3c096c;
+    transition: 0.3s all linear;
+    background-color:  rgb(157, 78, 221, 0.3);
+}
+
+main{
+    background: url(photos/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+body {
+    box-shadow: inset 0px 15px 22px 0px rgba(150,102,46,1);
+    background-color: #ffdd44;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    /*background-color: #ff6c00;*/
+    border-radius: 8px;
+    border-width: 10px;
+    text-align: center;
+    margin: 15px;
+    flex: 1 1 calc(25% - 20px);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: url(https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149020285.jpg?t=st=1713545186~exp=1713548786~hmac=f8e233a2a0c08d200cf4cec6f2a478166d93dd7b382bb1baca1e9758c8021152&w=900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
+    
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product p {
+    margin: 10px 0;
+    color: #ffffff;
+    /*font-weight: bold;*/
+}
+
+.product .price {
+    color: #ffeb3b;
+}
+
+button {    
+    font-family: 'Russo One';
+    border: 5px solid #7b2cbf;
+    padding: 0.3em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #240046;
+    background: transparent;
+    
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px 5px #3c096c;
+    transition: 0.3s all linear;
+    background-color:  rgb(157, 78, 221, 0.3);
+}
+
+
+.about {
+   
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: url(https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149020285.jpg?t=st=1713545186~exp=1713548786~hmac=f8e233a2a0c08d200cf4cec6f2a478166d93dd7b382bb1baca1e9758c8021152&w=900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
+}
+
+.about h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-content p {
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.about-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+footer {
+    /*background-color: #FFD700;  Жовтий колір фону */
+    text-align: center;
+    padding: 20px;
+    box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
+    background: url(photos/hfbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .coordinates {
+    font-weight: bold;
+  }
+  
+  .slogan {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  /*img {
+    width: 168px;
+    height: 233px;
+  }*/
+
+.about-content img{
+    width: 469px;
+    height: 378px;
+}
+
+/* .cart:hover{
+    background-color: ;
+} */
+
+
+.df{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    gap: 15px;
+}
+
+.df{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.product1{
+    /*background-color: #ff6c00;*/
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align:center;
+    width: 80%;
+    color: #ffffff;
+    margin: 0 auto;
+    background: url(https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149020285.jpg?t=st=1713545186~exp=1713548786~hmac=f8e233a2a0c08d200cf4cec6f2a478166d93dd7b382bb1baca1e9758c8021152&w=900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 10px 22px 0px rgba(150,102,46,1);
+}
+
+.df2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+#orderFormContainer{
+    text-align: center;
+   width: 50%;
+   margin: 0 auto;
+   background-color: #ffeb3b;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#orderForm{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+#closeButton{
+    background-color: #3c096c;
+    color: #fff;
+}
